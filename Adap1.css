@@ -1,0 +1,63 @@
+@media (min-width:1024px) and (max-width: 1440px) {
+    .wrapper {
+        width: 880px;
+    }
+
+    .main-menu ul li {
+        margin-left: 16px;
+    }
+
+    .logo p {
+        font-size: 22pt;
+        font-weight: 900;
+        padding-top: 4px;
+    }
+
+    .main-menu {
+        padding-top: 10px;
+    }
+
+    /* Баннер */
+    .banner>.wrapper>p:nth-child(2) {
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .about p {
+        line-height: 1.3em;
+    }
+
+    /* Продукция */
+    .prod {
+        grid-template-columns: repeat(3, 287px);
+        grid-auto-rows: 400px;
+        gap: 15px;
+    }
+
+    /* ПОЛЗНАЯ ИНФОРМАЦИЯ */
+    .info-block {
+        grid-template-columns: repeat(3, 285px);
+        grid-auto-rows: 285px;
+        gap: 15px;
+    }
+
+    /* ПОДВАЛ */
+    footer {
+        margin-top: 40px;
+        height: 230px;
+    }
+
+    .footer-block {
+        padding-top: 15px;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-rows: repeat(1, 197px);
+        gap: 20px;
+    }
+
+    .footer-block p {
+        font-size: 0.9em;
+    }
+}

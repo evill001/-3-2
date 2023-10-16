@@ -1,0 +1,97 @@
+/* 768 */
+@media (min-width:768px ) and (max-width: 1024px) {
+    .wrapper {
+        width: 710px;
+    }
+
+    header {
+        height: 52px;
+    }
+
+    .main-menu ul li {
+        margin-left: 9px;
+    }
+
+    .main-menu ul li a {
+        font-size: 0.8em;
+    }
+
+    .logo p {
+        font-size: 16pt;
+        font-weight: 900;
+        padding-top: 2px;
+    }
+
+    .main-menu {
+        padding-top: 2px;
+    }
+
+    .banner {
+        height: 395px;
+    }
+
+    .banner>.wrapper>p:nth-child(1) {
+        font-size: 2.6em;
+        margin-bottom: 30px;
+        padding-top: 100px;
+    }
+
+    .banner>.wrapper>p:nth-child(2) {
+        font-size: 1.1em;
+        font-weight: 100;
+        margin-bottom: 40px;
+    }
+
+    input[type=button] {
+        width: 114px;
+        height: 37px;
+        font-size: 0.8em;
+    }
+
+    /* О НАС */
+    h1 {
+        text-align: center;
+        font-size: 1em;
+        margin: 40px 0 20px;
+    }
+
+    .about p {
+        line-height: 1.2em;
+        text-align: justify;
+        font-size: 0.9em;
+    }
+
+    /* Продукция */
+    .prod {
+        grid-template-columns: repeat(3, 230px);
+        grid-template-rows: repeat(3, 320px);
+        gap: 10px;
+    }
+
+    /* ПОЛЗНАЯ ИНФОРМАЦИЯ */
+    .info-block {
+        grid-template-columns: repeat(3, 230px);
+        grid-template-rows: repeat(2, 230px);
+        gap: 10px;
+    }
+
+    /* ПОДВАЛ */
+    footer {
+        height: 230px;
+    }
+
+    .footer-block {
+        padding-top: 30px;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-rows: repeat(1, 187px);
+        gap: 10px;
+    }
+
+    .footer-block p {
+        font-size: 0.75em;
+    }
+
+    .footer-block h2 {
+        font-size: 0.85em;
+    }
+}
